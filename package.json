@@ -1,0 +1,32 @@
+{
+  "name": "misskey-embeder",
+  "description": "nextjs使って作ったやつです。プログラミング初心者なのでミスがあったらすみません",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactor-coding/misskey-embed.git"
+  },
+  "browser": {
+    "crypto": false
+  },
+  "author": "reactor_coding",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/reactor-coding/misskey-embed/issues"
+  },
+  "homepage": "https://github.com/reactor-coding/misskey-embed#readme"
+}
